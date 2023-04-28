@@ -7,6 +7,22 @@
     background-color: #fcaa67ff;
 }
 
+.ui-menu-color-home {
+    background-color: #b9ffb7ff;
+}
+
+.ui-menu-color-resume {
+    background-color: #38aeccff;
+}
+
+.ui-menu-color-contact {
+    background-color: #b9ffb7ff;
+}
+
+.ui-menu-color-download {
+    background-color: #38aeccff;
+}
+
 
 /* Heading */
 
@@ -41,4 +57,17 @@ header {
     font-family: "Space Mono", sans-serif;    
     font-size: 28px;
     color: #393e41ff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menu-container {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
