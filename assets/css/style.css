@@ -69,6 +69,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -101,4 +105,14 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
+}
+
+
+/* Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    /* background: rgba(0, 0, 0, 0.2); */
+    background: url(../images/wave2.jpg);
+    opacity: .9;
+    height: 120px;    
 }
