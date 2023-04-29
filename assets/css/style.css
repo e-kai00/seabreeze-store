@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Ysabeau:ital,wght@0,200;0,300;0,400;0,700;1,200&display=swap');
+/* font-family: 'Tangerine', cursive;
+font-family: 'Ysabeau', sans-serif; */
+
+
+body {
+    font-family: 'Ysabeau', sans-serif;
+}
 
 
 /* Colors */
@@ -6,6 +13,10 @@
 /* .bg-color-name-title {
     background-color: #fcaa67ff;
 } */
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
 
 .ui-menu-color-home {
     background-color: #58c5a3;
@@ -45,6 +56,22 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 
@@ -163,7 +190,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #38aeccff;
+    color: #58c5a3;
 }
 
 .social-links li a i {
@@ -183,7 +210,8 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #393e41ff;
+    /* background: #393e41ff; */
+    color: #393e41ff;
 }
 
 #footer-details {
