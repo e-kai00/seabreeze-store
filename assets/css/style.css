@@ -86,6 +86,10 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+ .collection-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;    
+ }
 
 
 /* Heading */
@@ -115,7 +119,6 @@ header {
     font-size: 96px;
     color: #393e41ff;
     margin-top: 50px;
-
 }
 
 .title {
@@ -236,7 +239,7 @@ footer {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #38aeccff;
+    color: #58c5a3;
 }
 
 .three-reasons-heading {
@@ -346,6 +349,14 @@ footer {
     margin: 30px;
 }
 
+.div-line {
+    
+    background: #fcaa67ff;    
+    height: 1px;
+    width: 40%;
+    margin-left: 0;
+}
+
 
 /* Contact form  */
 
@@ -364,6 +375,8 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: #fafafa;
     background-color: #38aeccff;
     border-color: #38aeccff;
